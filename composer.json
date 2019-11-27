@@ -1,0 +1,38 @@
+{
+    "name": "lukasz/gus",
+    "description": "GUS library for Laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Łukasz Jozwiak",
+            "email": "admin@admin.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ljozwiak\\Gus\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ljozwiak\\Gus\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ljozwiak\\Gus\\GusServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "gusapi/gusapi": "^5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0@dev"
+    },
+    "scripts": {
+        "test": ".\\vendor\\bin\\phpunit"
+    }
+}
