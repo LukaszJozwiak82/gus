@@ -60,6 +60,7 @@ class Gus
                     'numerWRejestrzeEwidencji' => 'NumerwRejestrzeLubEwidencji',
                     'organRejestrowy_Nazwa' => 'OrganRejestrowy',
                     'rodzajRejestruEwidencji_Nazwa' => 'RodzajRejestru',
+                    'adSiedzNumerNieruchomosci' => 'NumerNieruchomosci',
                 ];
 
                 if ($type === "p") {
