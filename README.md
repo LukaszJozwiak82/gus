@@ -1,5 +1,5 @@
 # gus
-GUS library for Laravel
+GUS library for Laravel 6.2
 
 # installation:
 composer require lukasz/gus
