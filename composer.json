@@ -24,11 +24,13 @@
         "laravel": {
             "providers": [
                 "Ljozwiak\\Gus\\GusServiceProvider"
-            ]
+            ],
+            "dont-discover": ["lukasz/gus"]
         }
     },
     "require": {
         "php": "^7.2",
+        "laravel/framework": "^6.2",
         "gusapi/gusapi": "^5.0",
         "laravelcollective/html": "^6.0"
     },
