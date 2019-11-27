@@ -25,7 +25,7 @@
             "providers": [
                 "Ljozwiak\\Gus\\GusServiceProvider"
             ],
-            "dont-discover": ["lukasz/gus"]
+            "dont-discover": []
         }
     },
     "require": {
