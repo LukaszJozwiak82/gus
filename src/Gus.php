@@ -36,7 +36,6 @@ class Gus
             }
 
             foreach ($gusReports as $gusReport) {
-                //you can change report type to other one
                 $reportType = $gusReport->getType();
                 $method = 'type' . ucfirst($reportType);
                 $reportTypeName = $this->$method($gusReport->getSilo());
