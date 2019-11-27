@@ -1,5 +1,6 @@
 {
     "name": "lukasz/gus",
+    "license": "MIT",
     "description": "GUS library for Laravel",
     "type": "library",
     "authors": [
