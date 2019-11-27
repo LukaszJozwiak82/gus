@@ -1,13 +1,13 @@
 # gus
 GUS library for Laravel
 
-#installation:
+# installation:
 composer require lukasz/gus
 
-#usage:
+# usage:
 publish views and conf: php artisan make:gus
 
-#route
+# route
 _htts://localhost/gus_
 (main view)
 
